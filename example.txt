@@ -1,0 +1,43 @@
+grid a (20,10)
+
+variation m = MARATHON
+
+level lvl = '1'
+
+block_list lst
+
+block b1
+b1.color(GREEN)
+b1.shape('O')
+
+block b2
+b2.color(RED)
+b2.shape('T')
+
+
+queue que
+que.add(bl)
+
+speed s = 2
+
+control left = LEFT_ARROW
+control right = RIGHT_ARROW
+control counter_clockwise = UP_ARROW
+control clockwise = DOWN_ARROW
+
+score g
+engine h
+
+
+h.start(a,m,lvl,lst,s,g)
+
+
+while (TRUE){
+
+
+	f = input()
+	h.update(f,q)
+	score.update(a)
+
+
+}

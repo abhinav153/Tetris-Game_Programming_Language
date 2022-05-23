@@ -1,0 +1,23 @@
+grid a = (300,600)
+
+variation m = MARATHON
+
+level lvl = '1'
+
+block b1
+b1.color(GREEN)
+b1.shape('O')
+
+block b2
+b2.color(RED)
+b2.shape('T')
+
+speed s = 4
+
+control left = LEFT_ARROW
+control right = RIGHT_ARROW
+control counter_clockwise = UP_ARROW
+control clockwise = DOWN_ARROW
+
+score g
+engine h
